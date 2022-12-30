@@ -15,8 +15,11 @@ const sum = function(numbers) {
   return summation;
 };
 
-const multiply = function() {
-
+const multiply = function(numbers) {
+  let multiplication = numbers.reduce(function(prev, curr){
+    return curr * prev;
+  }, 1);
+  return multiplication;
 };
 
 const power = function() {
