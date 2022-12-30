@@ -22,8 +22,9 @@ const multiply = function(numbers) {
   return multiplication;
 };
 
-const power = function() {
-	
+const power = function(number, power) {
+	const exp = number ** power;
+  return exp;
 };
 
 const factorial = function() {
