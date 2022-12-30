@@ -8,8 +8,11 @@ const subtract = function(num1, num2) {
   return subtraction;
 };
 
-const sum = function() {
-	
+const sum = function(numbers) {
+  let summation = numbers.reduce(function(prev, curr){
+    return curr + prev;
+  }, 0);
+  return summation;
 };
 
 const multiply = function() {
