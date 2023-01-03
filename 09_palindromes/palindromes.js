@@ -10,13 +10,14 @@
 //     return true;
 // };
 
-const palindromes = function(string) {
-    const processedString = string.toLowerCase().replace(/[^a-z]/g, "");
+// A function to determine palindromes in a string of words
+const palindromes = function(stringOfWords) {
+    const transformedString = stringOfWords.toLowerCase().replace(/[^a-z]/g, "");
     return (
-      processedString
+      transformedString
         .split("")
         .reverse()
-        .join("") == processedString
+        .join("") == transformedString
     );
   };
 
