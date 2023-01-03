@@ -1,3 +1,4 @@
+//A function to get the book titles from an array of objects
 const getTheTitles = function(array) {
 
     const books = [
