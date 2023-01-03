@@ -1,8 +1,9 @@
-const removeFromArray = function (...args) {
-    const array = args[0];
+// A function to remove items from an array.
+const removeFromArray = function (...contents) {
+    const array = contents[0];
     const newArray = [];
     array.forEach((item) => {
-        if (!args.includes(item)) {
+        if (!contents.includes(item)) {
             newArray.push(item);
         }
     });
