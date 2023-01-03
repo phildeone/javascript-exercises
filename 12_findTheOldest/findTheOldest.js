@@ -43,6 +43,7 @@ const findTheOldest = function(people) {
   })
 };
 
+//A function to Identify oldest person alive.
 const getAge = function(birthYear, deathYear){
   if (!deathYear){
     deathYear = new Date().getFullYear();
