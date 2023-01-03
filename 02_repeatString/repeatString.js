@@ -1,8 +1,9 @@
-const repeatString = function(word, times) {
-    if (times < 0) return 'ERROR';
+// A function to repeat a given word string. 
+const repeatString = function(wordString, repeat) {
+    if (repeat < 0) return 'ERROR';
     let string = '';
-    for (let i = 0; i < times; i++) {
-      string += word;
+    for (let i = 0; i < repeat; i++) {
+      string += wordString;
     }
     return string;
   };
