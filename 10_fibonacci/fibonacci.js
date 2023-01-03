@@ -1,7 +1,8 @@
-const fibonacci = function(number) {
-    if (number < 0) return "OOPS";
-    if (number === 0) return 0;
-    const num = parseInt(number);
+//A function to perform the fibonacci operation on an inputed number
+const fibonacci = function(inputedNumber) {
+    if (inputedNumber < 0) return "OOPS";
+    if (inputedNumber === 0) return 0;
+    const num = parseInt(inputedNumber);
     let n1 = 0;
     let n2 = 1;
     let nextTerm;
