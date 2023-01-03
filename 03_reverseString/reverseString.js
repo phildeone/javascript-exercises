@@ -1,3 +1,4 @@
+// A function to reverse an inputed string
 const reverseString = function(string) {
     let splitString = string.split("");
     let reverseArray = splitString.reverse();
